@@ -8,7 +8,7 @@
 .dot {
   position: absolute;
   display: inline-block;
-  background: purple;
+  /* background: purple; */
   width: 17px;
   height: 17px;
   border-radius: 50%;

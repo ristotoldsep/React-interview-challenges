@@ -7,6 +7,9 @@ const App = () => {
 
   console.log(points);
 
+    const randomColor = Math.floor(Math.random() * 16777215).toString(16);
+
+
   const clickHandler = (e) => {
     // console.log(e)
 
@@ -14,7 +17,7 @@ const App = () => {
 
     // console.log(pageX, pageY)
 
-    const newPoints = [{ pageX, pageY }];
+    const newPoints = [{ pageX, pageY, color: randomColor }];
 
     // console.log(newPoints)
 
@@ -39,10 +42,15 @@ const App = () => {
   };
 
   const restoreLastDot = () => {
-    console.log(lastRemoved.length);
-    if (!lastRemoved.length) console.log("ok");
-    setPoints((points) => [...points, lastRemoved]);
+    if (lastRemoved.length > 0) {
+        setPoints((points) => [...points, lastRemoved]);
+
+        setLastRemoved([])
+    }
   };
+
+
+//   console.log(randomColor)
 
   return (
     <>
@@ -69,6 +77,7 @@ const App = () => {
               style={{
                 left: `${point[0].pageX}px`,
                 top: `${point[0].pageY - 75}px`,
+                background: "#" + point[0].color,
               }}
               className="dot"
               key={i}
