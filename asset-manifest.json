@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/React-interview-challenges/static/css/main.5e7ae7f7.css",
-    "main.js": "/React-interview-challenges/static/js/main.747736ed.js",
+    "main.css": "/React-interview-challenges/static/css/main.97182b31.css",
+    "main.js": "/React-interview-challenges/static/js/main.ac253f6e.js",
     "index.html": "/React-interview-challenges/index.html",
-    "main.5e7ae7f7.css.map": "/React-interview-challenges/static/css/main.5e7ae7f7.css.map",
-    "main.747736ed.js.map": "/React-interview-challenges/static/js/main.747736ed.js.map"
+    "main.97182b31.css.map": "/React-interview-challenges/static/css/main.97182b31.css.map",
+    "main.ac253f6e.js.map": "/React-interview-challenges/static/js/main.ac253f6e.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e7ae7f7.css",
-    "static/js/main.747736ed.js"
+    "static/css/main.97182b31.css",
+    "static/js/main.ac253f6e.js"
   ]
 }
